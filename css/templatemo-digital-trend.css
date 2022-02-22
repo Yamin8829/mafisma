@@ -504,6 +504,7 @@ color: white;
     right: 32px;
     left: 32px;
     width: 90%;
+    opacity: 0.5;
     padding: 32px;
   }
 
@@ -816,6 +817,12 @@ color: white;
       right: 0;
       left: 0;
       margin: 0 auto;
+      padding: 8px;
+      opacity: 0.5;
+    }
+    .project-icon {
+    display: none;
+ 
     }
 
     .footer-link, 
