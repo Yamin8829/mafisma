@@ -5,7 +5,7 @@ DIGITAL TREND
 https://templatemo.com/tm-538-digital-trend
 
 */
-  
+/* border: solid rgb(255, 0, 0) .1px; */
   @font-face {
       font-family: 'Plain-Regular';
       src: url('../fonts/Plain-Regular.woff2') format('woff2'),
@@ -94,12 +94,21 @@ https://templatemo.com/tm-538-digital-trend
 display: flex;
 }
 .data-personil{
-position: absolute;
-left: 10rem;
  
 color: white;
+position: absolute; 
+text-align: left;
+width: 100%;
 }
-.prodi-personil, .bio-personil {
+.bg-data-personil{
+   /* border: solid rgb(255, 0, 0) .1px; */
+   width: 100%;
+  position: relative;
+}
+.nama-personil{
+  font-size: 1.5em;
+}
+.prodi-personil, .bio-personil { 
 font-weight: bold;
 color: white; 
 }
@@ -110,9 +119,8 @@ color: white;
   font-family: 'Poppins', sans-serif;
 }
 .bg-imgku {
-  position: relative;
-  border-radius: 10%;
-  bottom: 23px;
+
+  border-radius: 10%; 
   width: 8rem;
   background: #e4dada;
 }
@@ -129,14 +137,27 @@ color: white;
   border-radius: 1.5rem 1.5rem 0 0;
     
 }
-.card{
-  height: 250px;
+.card-personil{
+  height: 300px;
   border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
   padding: 20px;
   border: none;
   background: rgba(0, 0, 0, 0) linear-gradient(130.2deg, rgb(156, 177, 249) -2.91%, rgb(54, 119, 217) 119.44%) repeat scroll 0% 0%;
 }
 
+
+@media (max-width: 500px) {
+  .info-profile {
+ 
+  }
+  .nama-personil{
+    font-size: 1em;
+  }
+  .prodi-personil{
+    font-size: 1em;
+  }
+ 
+}
   /*---------------------------------------
      TYPOGRAPHY   
      rgba(0, 0, 0, 0) linear-gradient(133.39deg, rgb(196, 106, 211) -8.41%, rgb(140, 15, 184) 98.32%) repeat scroll 0% 0%
