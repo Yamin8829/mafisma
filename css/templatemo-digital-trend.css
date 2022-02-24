@@ -1,10 +1,4 @@
-/*
 
-DIGITAL TREND
-
-https://templatemo.com/tm-538-digital-trend
-
-*/
 /* border: solid rgb(255, 0, 0) .1px; */
   @font-face {
       font-family: 'Plain-Regular';
@@ -171,11 +165,11 @@ color: white;
   .info-profile {
  
   }
-  .nama-personil{
+  .nama-personil, .prodi-personil{
     font-size: 1em;
   }
-  .prodi-personil{
-    font-size: 1em;
+  .bio-personil{
+    font-size: .8em;
   }
  
 }
