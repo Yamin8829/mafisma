@@ -52,7 +52,7 @@
     --border-radius-large:  100px;
     --border-radius-small:  5px;
   }
-
+ 
   body {
     background: var(--white-color);
     font-family: var(--base-font-family);
@@ -118,6 +118,20 @@ color: white;
   width: 8rem;
   background: #e4dada;
 }
+.bg-imgku-detail img{
+  border-radius: 10%; 
+ width: 5rem;
+}
+/* create grid box with 3 column */
+.grid-box-detail {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-top: 1rem;
+}
+.grid-text{
+  font-size: .9em;
+}
 .card-dpl{
   background: rgba(0, 0, 0, 0) linear-gradient(133.39deg, rgb(196, 106, 211) -8.41%, rgb(140, 15, 184) 98.32%) repeat scroll 0% 0%;
   border-radius: 1.5rem 1.5rem 0 0;
@@ -130,6 +144,9 @@ color: white;
   background: #eec42b;
   border-radius: 1.5rem 1.5rem 0 0;
     
+}
+.ig-personil a{
+color: rgb(255, 234, 196);
 }
 .card-personil{
   height: 300px;
@@ -170,6 +187,16 @@ color: white;
   }
   .bio-personil{
     font-size: .8em;
+  }
+  .grid-box-detail{
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+  .grid-text{
+    font-size: 1em;
+  }
+  .bg-imgku-detail img{
+    width: 5rem;
   }
  
 }
